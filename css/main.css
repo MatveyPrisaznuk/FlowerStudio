@@ -302,4 +302,50 @@ html {
   .hero__titlespan:last-child {
     display: block;
   }
+}
+
+.about__title {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2083333333;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+@media screen and (min-width: 752px) {
+  .about__title {
+    font-size: 44px;
+    line-height: 1.2272727273;
+    gap: 16px;
+  }
+}
+.about__title::after {
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background: #000000;
+}
+.about__desc {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-top: 32px;
+}
+@media screen and (min-width: 752px) {
+  .about__desc {
+    font-size: 20px;
+    width: 322px;
+    line-height: 1.2;
+    margin-top: 56px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .about__desc {
+    font-size: 22px;
+    width: 510px;
+    line-height: 1.2272727273;
+    margin-top: 120px;
+  }
 }/*# sourceMappingURL=main.css.map */
