@@ -71,15 +71,53 @@
         <section class="about" id="about">
             <div class="container">
                 <h2 class="about__title">ABOUT</h2>
-                <p class="about__desc">We are a minimalistic flower studio. We love people and flowers. Therefore, every
-                    day we give people
-                    the beauty and joy creating stylish and modern masterpieces. Every bouquet we create is unique as
-                    you are.
-                </p>
+                <div class="about__picturebox">
+                    <p class="about__desc">We are a minimalistic flower studio. We love people and flowers. Therefore,
+                        every
+                        day we give people
+                        the beauty and joy creating stylish and modern masterpieces. Every bouquet we create is unique
+                        as
+                        you are.
+                    </p>
+                    <picture>
+                        <source
+                            srcset="./img/desktop/flower-desktop@1x.webp 1x, ./img/desktop/flower-desktop@2x.webp 2x"
+                            media="(min-width:1264px)">
+                        <source srcset="./img/tablet/flower-tablet@1x.webp 1x, ./img/tablet/flower-tablet@2x.webp 2x"
+                            media="(min-width:752px)">
+                        <source srcset="./img/mobile/flower-mobile@1x.webp 1x, ./img/mobile/flower-mobile@2x.webp 2x"
+                            media="(max-width:751px)">
+                        <img src="./img/desktop/flower-desktop@1x.webp" alt="flower_background" class="about__picture">
+                    </picture>
+                </div>
             </div>
         </section>
         <section class="store" id="store">
             <div class="container">
+                <h2>STORE</h2>
+                <ul>
+                    <li>
+                        <img src="" alt="">
+                        <h3>compliments</h3>
+                        <p>from $15</p>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <h3>bouquets size S</h3>
+                        <p>from $25</p>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <h3>bouquets size M</h3>
+                        <p>from $45</p>
+                    </li>
+                    <li>
+                        <img src="" alt="">
+                        <h3>bouquets size L</h3>
+                        <p>from $60</p>
+                    </li>
+                </ul>
+                <button type="button">Order flowers</button>
             </div>
         </section>
     </main>

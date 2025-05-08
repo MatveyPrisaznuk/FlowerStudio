@@ -22,25 +22,57 @@
     background: $text-color;
   }
 
+  &__picturebox {
+    display: block;
+
+    @media screen and (min-width: 752px) {
+      display: flex;
+      gap: 54px;
+    }
+
+    @media screen and (min-width: 1264px) {
+      gap: 90px;
+    }
+  }
+
   &__desc {
     color: $text-color;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.25;
     margin-top: 32px;
+    margin-bottom: 16px;
 
     @media screen and (min-width: 752px) {
       font-size: 20px;
       width: 322px;
       line-height: 1.2;
       margin-top: 56px;
+      margin-bottom: 0px;
     }
 
     @media screen and (min-width: 1264px) {
       font-size: 22px;
-      width: 510px;
+      width: 509px;
       line-height: 1.22727272727;
       margin-top: 120px;
+    }
+  }
+
+  &__picture {
+    width: 288px;
+    height: 178px;
+
+    @media screen and (min-width: 752px) {
+      width: 344px;
+      height: 217px;
+      margin-top: 30px;
+    }
+
+    @media screen and (min-width: 1264px) {
+      width: 632px;
+      height: 344px;
+      margin-top: 26px;
     }
   }
 }
