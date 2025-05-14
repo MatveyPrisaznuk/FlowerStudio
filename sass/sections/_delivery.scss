@@ -1,8 +1,38 @@
 .delivery {
   padding-bottom: 60px;
+  padding-bottom: 161px;
+  background-image: url(../img/mobile/delivery-mobile@1x.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 135px;
+  background-position: center bottom;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../img/mobile/delivery-mobile@2x.webp);
+  }
 
   @media screen and (min-width: 752px) {
-    padding-bottom: 100px;
+    padding-bottom: 304px;
+    background-size: 100% 264px;
+    background-image: url(../img/tablet/delivery-tablet@1x.webp);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/tablet/delivery-tablet@2x.webp);
+    }
+  }
+
+  @media screen and (min-width: 1264px) {
+    padding-bottom: 451px;
+    background-size: 100% 391px;
+    background-image: url(../img/desktop/delivery-desktop@1x.webp);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/desktop/delivery-desktop@2x.webp);
+    }
   }
 
   &__title {
