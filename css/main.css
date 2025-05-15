@@ -768,6 +768,12 @@ html {
     gap: 32px;
   }
 }
+@media screen and (min-width: 1264px) {
+  .blog__list {
+    margin-left: 74px;
+    margin-right: 74px;
+  }
+}
 .blog__image {
   width: 122px;
   height: 147px;

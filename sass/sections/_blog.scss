@@ -42,6 +42,11 @@
     @media screen and (min-width: 752px) {
       gap: 32px;
     }
+
+    @media screen and (min-width: 1264px) {
+      margin-left: 74px;
+      margin-right: 74px;
+    }
   }
 
   &__image {
