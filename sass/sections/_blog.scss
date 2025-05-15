@@ -7,7 +7,123 @@
     padding-bottom: 100px;
   }
 
-   @media screen and (min-width: 1264px) {
+  @media screen and (min-width: 1264px) {
     padding-bottom: 101px;
+  }
+
+  &__title {
+    color: $text-color;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.20833333333;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    @media screen and (min-width: 752px) {
+      font-size: 44px;
+      line-height: 1.22727272727;
+      gap: 16px;
+    }
+  }
+
+  &__title::after {
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background: $text-color;
+  }
+
+  &__list {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    @media screen and (min-width: 752px) {
+      gap: 32px;
+    }
+  }
+
+  &__image {
+    width: 122px;
+    height: 147px;
+    margin-top: 32px;
+
+    @media screen and (min-width: 752px) {
+      width: 287px;
+      height: 346px;
+      margin-top: 60px;
+    }
+
+    @media screen and (min-width: 1264px) {
+      width: 315px;
+      height: 369px;
+      margin-top: 122px;
+    }
+  }
+
+  .another__height {
+    width: 153px;
+    height: 181px;
+
+    @media screen and (min-width: 752px) {
+      width: 344px;
+      height: 398px;
+    }
+
+    @media screen and (min-width: 1264px) {
+      width: 390px;
+      height: 421px;
+    }
+  }
+
+  &__subtitle {
+    color: $text-color;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.22222222222;
+    margin-top: 28px;
+
+    @media screen and (min-width: 752px) {
+      font-size: 32px;
+      line-height: 1.21875;
+      margin-top: 32px;
+    }
+
+    @media screen and (min-width: 1264px) {
+      margin-top: 44px;
+    }
+  }
+
+  &__button {
+    color: $background-color;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33333333333;
+    display: flex;
+    width: 170px;
+    height: 40px;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px;
+    background: $accent-color;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 752px) {
+      font-size: 28px;
+      line-height: 0.85714285714;
+      width: 280px;
+      height: 64px;
+      padding: 16px 32px;
+      margin-top: 40px;
+    }
+
+    @media screen and (min-width: 1264px) {
+      margin-top: 48px;
+    }
   }
 }

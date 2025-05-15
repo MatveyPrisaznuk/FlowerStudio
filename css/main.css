@@ -735,4 +735,123 @@ html {
   .blog {
     padding-bottom: 101px;
   }
+}
+.blog__title {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2083333333;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+@media screen and (min-width: 752px) {
+  .blog__title {
+    font-size: 44px;
+    line-height: 1.2272727273;
+    gap: 16px;
+  }
+}
+.blog__title::after {
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background: #000000;
+}
+.blog__list {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+@media screen and (min-width: 752px) {
+  .blog__list {
+    gap: 32px;
+  }
+}
+.blog__image {
+  width: 122px;
+  height: 147px;
+  margin-top: 32px;
+}
+@media screen and (min-width: 752px) {
+  .blog__image {
+    width: 287px;
+    height: 346px;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .blog__image {
+    width: 315px;
+    height: 369px;
+    margin-top: 122px;
+  }
+}
+.blog .another__height {
+  width: 153px;
+  height: 181px;
+}
+@media screen and (min-width: 752px) {
+  .blog .another__height {
+    width: 344px;
+    height: 398px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .blog .another__height {
+    width: 390px;
+    height: 421px;
+  }
+}
+.blog__subtitle {
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2222222222;
+  margin-top: 28px;
+}
+@media screen and (min-width: 752px) {
+  .blog__subtitle {
+    font-size: 32px;
+    line-height: 1.21875;
+    margin-top: 32px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .blog__subtitle {
+    margin-top: 44px;
+  }
+}
+.blog__button {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3333333333;
+  display: flex;
+  width: 170px;
+  height: 40px;
+  padding: 14px 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 38px;
+  background: #e86f54;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 752px) {
+  .blog__button {
+    font-size: 28px;
+    line-height: 0.8571428571;
+    width: 280px;
+    height: 64px;
+    padding: 16px 32px;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .blog__button {
+    margin-top: 48px;
+  }
 }/*# sourceMappingURL=main.css.map */
