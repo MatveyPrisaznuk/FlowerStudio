@@ -1,3 +1,29 @@
 .footer {
   background-color: $text-color;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  @media screen and (min-width: 752px) {
+    padding-top: 60px;
+    padding-bottom: 54px;
+  }
+  @media screen and (min-width: 1264px) {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  & > .container {
+    display: flex;
+  }
+
+  &__icon {
+    display: none;
+
+    @media screen and (min-width: 1264px) {
+      display: block;
+      width: 73px;
+      height: 57px;
+      fill: white;
+    }
+  }
 }

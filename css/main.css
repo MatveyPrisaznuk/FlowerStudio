@@ -864,4 +864,32 @@ html {
 
 .footer {
   background-color: #000000;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+@media screen and (min-width: 752px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 54px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .footer {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+}
+.footer > .container {
+  display: flex;
+}
+.footer__icon {
+  display: none;
+}
+@media screen and (min-width: 1264px) {
+  .footer__icon {
+    display: block;
+    width: 73px;
+    height: 57px;
+    fill: white;
+  }
 }/*# sourceMappingURL=main.css.map */
