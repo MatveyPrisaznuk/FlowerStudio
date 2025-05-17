@@ -881,6 +881,12 @@ html {
 }
 .footer > .container {
   display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1264px) {
+  .footer__link {
+    margin-right: 230px;
+  }
 }
 .footer__icon {
   display: none;
@@ -892,4 +898,140 @@ html {
     height: 57px;
     fill: white;
   }
+}
+.footer__navigationlist {
+  margin-right: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media screen and (min-width: 1264px) {
+  .footer__navigationlist {
+    margin-right: 96px;
+  }
+}
+.footer .navigationlist__title {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2222222222;
+}
+@media screen and (min-width: 752px) {
+  .footer .navigationlist__title {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+.footer .navigationlist__link {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2142857143;
+}
+@media screen and (min-width: 752px) {
+  .footer .navigationlist__link {
+    font-size: 16px;
+    line-height: 1.1875;
+  }
+}
+.footer .timelist__title {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2222222222;
+}
+@media screen and (min-width: 752px) {
+  .footer .timelist__title {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+.footer .timelist__desc {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2142857143;
+  width: 85px;
+  margin-top: 18px;
+}
+@media screen and (min-width: 752px) {
+  .footer .timelist__desc {
+    font-size: 16px;
+    line-height: 1.1875;
+    width: 97px;
+  }
+}
+.footer__contactlist {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media screen and (min-width: 752px) {
+  .footer__contactlist {
+    margin-top: 0px;
+    margin-left: 44px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .footer__contactlist {
+    margin-left: 96px;
+  }
+}
+.footer .contactlist__title {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2222222222;
+}
+@media screen and (min-width: 752px) {
+  .footer .contactlist__title {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+.footer .contactlist__link {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2142857143;
+  width: 128px;
+  display: inline-block;
+}
+@media screen and (min-width: 752px) {
+  .footer .contactlist__link {
+    font-size: 16px;
+    line-height: 1.1875;
+    width: 147px;
+  }
+}
+.footer__svglist {
+  display: flex;
+  gap: 14px;
+  margin-top: 27px;
+  margin-left: 32px;
+}
+@media screen and (min-width: 752px) {
+  .footer__svglist {
+    margin-left: 164px;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .footer__svglist {
+    margin-left: 308px;
+  }
+}
+.footer .svglist__icon {
+  width: 28px;
+  height: 28px;
+  fill: #ffffff;
 }/*# sourceMappingURL=main.css.map */

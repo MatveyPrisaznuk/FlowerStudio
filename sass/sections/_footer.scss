@@ -7,6 +7,7 @@
     padding-top: 60px;
     padding-bottom: 54px;
   }
+
   @media screen and (min-width: 1264px) {
     padding-top: 72px;
     padding-bottom: 72px;
@@ -14,6 +15,13 @@
 
   & > .container {
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__link {
+     @media screen and (min-width: 1264px) {
+      margin-right: 230px;
+    }
   }
 
   &__icon {
@@ -24,6 +32,149 @@
       width: 73px;
       height: 57px;
       fill: white;
+    }
+  }
+
+  &__navigationlist {
+    margin-right: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    @media screen and (min-width: 1264px) {
+      margin-right: 96px;
+    }
+  }
+
+  .navigationlist {
+    &__title {
+      color: $background-color;
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.22222222222;
+
+      @media screen and (min-width: 752px) {
+        font-size: 20px;
+        line-height: 1.2;
+      }
+    }
+
+    &__link {
+      color: $background-color;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.21428571429;
+
+      @media screen and (min-width: 752px) {
+        font-size: 16px;
+        line-height: 1.1875;
+      }
+    }
+  }
+
+  .timelist {
+    &__title {
+      color: $background-color;
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.22222222222;
+
+      @media screen and (min-width: 752px) {
+        font-size: 20px;
+        line-height: 1.2;
+      }
+    }
+
+    &__desc {
+      color: $background-color;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.21428571429;
+      width: 85px;
+      margin-top: 18px;
+
+      @media screen and (min-width: 752px) {
+        font-size: 16px;
+        line-height: 1.1875;
+        width: 97px;
+      }
+    }
+  }
+
+  &__contactlist {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    @media screen and (min-width: 752px) {
+      margin-top: 0px;
+      margin-left: 44px;
+    }
+
+    @media screen and (min-width: 1264px) {
+      margin-left: 96px;
+    }
+  }
+
+  .contactlist {
+    &__title {
+      color: $background-color;
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.22222222222;
+
+      @media screen and (min-width: 752px) {
+        font-size: 20px;
+        line-height: 1.2;
+      }
+    }
+
+    &__link {
+      color: $background-color;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 1.21428571429;
+      width: 128px;
+      display: inline-block;
+
+      @media screen and (min-width: 752px) {
+        font-size: 16px;
+        line-height: 1.1875;
+        width: 147px;
+      }
+    }
+  }
+
+  &__svglist {
+    display: flex;
+    gap: 14px;
+    margin-top: 27px;
+    margin-left: 32px;
+
+    @media screen and (min-width: 752px) {
+      margin-left: 164px;
+      flex-direction: column;
+      margin-top: 0px;
+    }
+
+     @media screen and (min-width: 1264px) {
+      margin-left: 308px;
+    }
+  }
+
+  .svglist {
+    &__icon {
+      width: 28px;
+      height: 28px;
+      fill: $background-color;
     }
   }
 }
